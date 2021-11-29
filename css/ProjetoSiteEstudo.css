@@ -1,0 +1,81 @@
+body {
+  background-image: url("../img/capabody.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 400px;
+  margin-bottom: 350px;
+  clear: both;
+}
+body a {
+  color: #03045e;
+  text-decoration-line: none;
+  font-style: italic;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.header {
+  background-image: url("../img/capaheader.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.livros a {
+  color: #03045e;
+  text-decoration-line: none;
+  font-style: italic;
+  font-size: 15px;
+}
+body p {
+  color: #03045e;
+  font-style: normal;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.livros {
+  margin-top: 30px;
+  margin-left: 45px;
+  display: inline-block;
+}
+#Buscador {
+  background-color: #abe9ff;
+  border: solid 1px;
+  border-radius: 15px;
+  width: 300px;
+  float: right;
+}
+#txtBusca {
+  float: left;
+  background-color: transparent;
+  padding-left: 5px;
+  font-style: italic;
+  font-size: 18px;
+  border: none;
+  height: 32px;
+  width: 260px;
+}
+#btnBusca {
+  margin-top: 4px;
+  margin-left: 4px;
+}
+#menu {
+  list-style-type: none;
+}
+#menu a {
+  color: #03045e;
+  text-decoration-line: none;
+  font-style: italic;
+  font-size: 20px;
+}
+footer.fixar-rodape {
+  background: #0096c7;
+  border-top: 1px solid #333;
+  bottom: 0;
+  left: 0;
+  height: 120px;
+  position: fixed;
+  width: 100%;
+}
+.titulolivros {
+  text-align: center;
+}
